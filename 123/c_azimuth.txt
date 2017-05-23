@@ -1,0 +1,40 @@
+DHTMLET?属性清单 | 相关内容： SEE ALSO ------------------------------------------   voice-family   volume   stress   richness   elevation   speak   speak-punctuation   speak-numeral   pitch   pitch-range   speech-rate   play-during   pause   pause-before   pause-after   cue   cue-before   cue-after
+
+azimuth版本：CSS2　 兼容性：NONE　继承性：有
+
+ 
+语法： 
+ 
+azimuth : left-side | far-left | left | center-left | center | center-right | right |far-right | right-side | leftwards | rightwards | angle 
+ 
+参数： 
+ 
+
+left-side : 　270deg | 90deg 
+far-left : 　300deg | -60deg 
+left : 　320deg | -40deg 
+center-left : 　340deg | -20deg 
+center : 　0deg 
+center-right : 　20deg | -340deg 
+right : 　40deg | -320deg 
+far-right : 　60deg | -300deg 
+right-side 　90deg | -270deg 
+leftwards : 　相对于继承值或绝对参考角度减（逆时针）20deg 
+rightwards : 　相对于继承值或绝对参考角度加（顺时针）20deg 
+angle : 　角度值。整数值取值范围为-360deg到360deg。单位为deg。请参阅角度单位 
+ 
+说明： 
+ 
+设置或检索当前声音的音场角度。 
+目前IE5.5尚不支持此属性。 
+对应的脚本特性为azimuth。请参阅我编写的其他书目。 
+ 
+示例： 
+ 
+body { azimuth: 75deg } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

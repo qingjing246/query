@@ -1,0 +1,27 @@
+DHTMLET?规则清单 | 相关内容： SEE ALSO ------------------------------------------   @fontdef   @charset ------------------------------------------   font   font-family
+
+@font-face版本：CSS2　 兼容性：IE4+
+
+ 
+语法： 
+ 
+@font-face { font-family : name ; src : url( url ) ; sRules } 
+ 
+说明： 
+ 
+name : 　字体名称 
+url : 　使用绝对或相对地址指定OpenType字体 
+sRules : 　样式表定义 
+ 
+设置嵌入HTML文档的字体。
+嵌入HTML文档的字体是指将OpenType字体（压缩的TrueType字体）文件映射到客户端系统，用来提供HTML文档使用该字体，或取代客户端系统已有的同名字体。 
+ 
+示例： 
+ 
+@font-face { font-family: dreamy; font-weight: bold; src: url(http://www.example.com/font.eot); } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

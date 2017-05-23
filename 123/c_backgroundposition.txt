@@ -1,0 +1,34 @@
+DHTMLET?属性清单 | 相关内容： SEE ALSO ------------------------------------------   background   background-color   background-image   background-repeat   background-attachment   background-positionX   background-positionY   layer-background-color   layer-background-image
+
+background-position版本：CSS1　 兼容性：IE4+ NS6+　继承性：无
+
+ 
+语法： 
+ 
+background-position : length || length
+background-position : position || position 
+ 
+参数： 
+ 
+length : 　百分数 | 由浮点数字和单位标识符组成的长度值。请参阅长度单位 
+position : 　top | center | bottom | left | center | right 
+ 
+说明： 
+ 
+设置或检索对象的背景图像位置。必须先指定background-image属性。默认值为：(0% 0%)。
+如果只指定了一个值，该值将用于横坐标。纵坐标将默认为50%。第二个值将用于纵坐标。
+该属性定位不受对象的补丁属性(padding)设置影响。 
+对应的脚本特性为backgroundPosition。请参阅我编写的其他书目。 
+ 
+示例： 
+ 
+div { background: url("images/aardvark.gif"); background-position: 35% 80%; } 
+menu { background: url("images/aardvark.gif"); background-position: 35% 2.5cm; } 
+a { background: url("images/aardvark.gif"); background-position: 3.25in; } 
+body { background: url("images/aardvark.gif"); background-position: top right; } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

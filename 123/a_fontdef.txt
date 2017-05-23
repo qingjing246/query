@@ -1,0 +1,23 @@
+DHTMLET?规则清单 | 相关内容： SEE ALSO ------------------------------------------   @font-face   @charset ------------------------------------------   font   font-family
+
+@fontdef版本：NS4+专有规则　 兼容性：NS4+
+
+ 
+语法： 
+ 
+@fontdef { url( url ) } 
+ 
+说明： 
+url : 　使用绝对或相对地址指定嵌入HTML文档的字体定义文件 
+ 
+设置嵌入HTML文档的字体。 
+ 
+示例： 
+ 
+@fontdef url("http://www.example.com/sample.pfr"); 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

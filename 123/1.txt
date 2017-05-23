@@ -1,0 +1,26 @@
+DHTMLET?规则清单 | 相关内容： SEE ALSO ------------------------------------------   字符集识别 ------------------------------------------   @font-face   @fontdef ------------------------------------------   font   font-family
+
+@charset版本：CSS2　 兼容性：IE4+
+
+ 
+语法： 
+ 
+@charset sCharacterSet 
+ 
+说明： 
+ 
+sCharacterSet : 　字符集名称 
+ 
+在外部样式表文件内使用。指定该样式表使用的字符集。请参阅附录：字符集。 
+在外部样式表文件内，此规则只允许发生一次。且必须在样式表的最前面。 
+对于内部样式表来说，其字符集由HTML文档的字符集指定。请参阅meta对象的content属性（特性）。 
+ 
+示例： 
+ 
+@charset "Shift-JIS"; 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

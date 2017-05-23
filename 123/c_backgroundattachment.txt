@@ -1,0 +1,28 @@
+DHTMLET?属性清单 | 相关内容： SEE ALSO ------------------------------------------   background   background-color   background-image   background-repeat   background-position   background-positionX   background-positionY   layer-background-color   layer-background-image
+
+background-attachment版本：CSS1　 兼容性：IE4+ NS6+　继承性：无
+
+ 
+语法： 
+ 
+background-attachment : scroll | fixed 
+ 
+参数： 
+ 
+scroll : 　背景图像是随对象内容滚动
+fixed : 　背景图像固定 
+ 
+说明： 
+ 
+设置或检索背景图像是随对象内容滚动还是固定的。 
+对应的脚本特性为backgroundAttachment。请参阅我编写的其他书目。 
+ 
+示例： 
+ 
+html { background-image: url("anasazi.tif"); background-attachment: fixed; } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

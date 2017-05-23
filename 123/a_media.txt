@@ -1,0 +1,34 @@
+DHTMLET?规则清单 | 相关内容： SEE ALSO ------------------------------------------ @import ------------------------------------------ !important
+
+@media版本：CSS2　 兼容性：IE5+
+
+ 
+语法： 
+ 
+@media  sMedia { sRules } 
+ 
+说明： 
+ 
+sMedia : 　指定设备名称。请参阅附录：设备类型 
+sRules : 　样式表定义 
+ 
+指定样式表规则用于指定的设备类型。请参阅link对象的media属性（特性）。 
+ 
+示例： 
+ 
+// 设置显示器用字体尺寸 
+@media screen { 
+BODY {font-size:12pt; } 
+} 
+ 
+// 设置打印机用字体尺寸 
+@media print { 
+@import "print.css" 
+BODY {font-size:8pt;} 
+} 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

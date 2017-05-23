@@ -1,0 +1,31 @@
+DHTMLET?属性清单 | 相关内容： SEE ALSO ------------------------------------------   background   background-image   background-repeat   background-attachment   background-position   background-positionX   background-positionY   layer-background-color   layer-background-image ------------------------------------------   颜色表 Color Table
+
+background-color版本：CSS1　 兼容性：IE4+ NS4+　继承性：无
+
+ 
+语法： 
+ 
+background-color : transparent | color 
+ 
+参数： 
+ 
+transparent : 　背景色透明
+color : 　指定颜色。请参阅颜色单位和附录：颜色表 
+ 
+说明： 
+ 
+设置或检索对象的背景颜色。 
+对应的脚本特性为backgroundColor。请参阅我编写的其他书目。 
+ 
+示例： 
+ 
+p { background-color: silver }
+div { background-color: rgb(223,71,177) } 
+body { background-color: #98AB6F }
+pre { background-color: transparent; } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

@@ -1,0 +1,31 @@
+DHTMLET?属性清单 | 相关内容： SEE ALSO ------------------------------------------   background   background-color   background-repeat   background-attachment   background-position   background-positionX   background-positionY   layer-background-color   layer-background-image
+
+background-image版本：CSS1　 兼容性：IE4+ NS4+　继承性：无
+
+ 
+语法： 
+ 
+background-image : none | url (url) 
+ 
+参数： 
+ 
+none : 　无背景图
+url : 　使用绝对或相对地址指定背景图像 
+ 
+说明： 
+ 
+设置或检索对象的背景图像。 
+对应的脚本特性为backgroundImage。请参阅我编写的其他书目。 
+ 
+示例： 
+ 
+code { background-image: url("comet.jpg"); }
+blockquote { background-image: url("c:\InetPub\MyPixs\comet.jpg"); } 
+br { background-image: url(http://Fred.com/ImageFile/Q.gif); } 
+body { background-image: none; } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

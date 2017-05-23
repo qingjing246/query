@@ -1,0 +1,33 @@
+DHTMLET?属性清单 | 相关内容： SEE ALSO ------------------------------------------   background   background-color   background-image   background-repeat   background-attachment   background-position   background-positionY   layer-background-color   layer-background-image
+
+background-positionX版本：IE5.5+专有属性　继承性：无
+
+ 
+语法： 
+ 
+background-positionX : length | left | center | right 
+ 
+参数： 
+ 
+length : 　百分数 | 由浮点数字和单位标识符组成的长度值。请参阅长度单位 
+left : 　居左 
+center : 　居中 
+right : 　居右 
+ 
+说明： 
+ 
+设置或检索对象的背景图像横坐标位置。必须先指定background-image属性。默认值为：0%。
+该属性定位不受对象的补丁属性(padding)设置影响。 
+对应的脚本特性为backgroundPositionX。请参阅我编写的其他书目。 
+ 
+示例： 
+ 
+p { background-image: url("images/aardvark.gif"); background-positionX: 35%; background-repeat:no-repeat; } 
+ 
+ 　 background-positionX : leftbackground-positionX : rightbackground-positionX : center
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 

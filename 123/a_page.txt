@@ -1,0 +1,27 @@
+DHTMLET?规则清单 | 相关内容： SEE ALSO ------------------------------------------   :first   :left   :right ------------------------------------------   page   page-break-after   page-break-before   orphans   marks   page-break-inside   size   widows
+
+@page版本：CSS2　 兼容性：IE5.5+
+
+ 
+语法： 
+ 
+@page  label  pseudo-class { sRules } 
+ 
+说明： 
+ 
+label : 　页标 
+pseudo-class : 　伪类。:first | :left | :right 
+sRules : 　样式表定义 
+ 
+设置页面容器的版式，方向，边空等。 
+页面容器包括页面内容区域和内容区域外围的边空补白区域。 
+ 
+示例： 
+ 
+@page thin:first { size: 3in 8in } 
+ 
+ 
+ 
+
+苏沈小雨制作·保留所有权利
+?2001 rain1977.comer . All rights reserved . Terms of Use . 
